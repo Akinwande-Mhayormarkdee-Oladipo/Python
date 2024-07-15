@@ -1,5 +1,4 @@
 from coffee_resources import MENU, resources
-
 # this is a coffee making software
 # resources report
 
@@ -62,7 +61,6 @@ def make_coffee(resources_available, coffee_resources):
         resources_available[items] -= coffee_resources[items]
 
 
-
 def coffee_maker():
     machine_switch = True
     available_items = resources
@@ -116,5 +114,6 @@ def coffee_maker():
             print(f"Here is your {coffee_type}. Enjoy! \n\n")
             process_switch = False
 
-coffee_maker()
 
+# start the coffee machine program.
+coffee_maker()
